@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import projetoEsmeralda from '@/assets/projeto-esmeralda.jpg';
+import chacaraEsmeralda from '@/assets/chacara-esmeralda.jpg';
 import projetoSaoCarlos from '@/assets/projeto-sao-carlos.jpg';
 
 const projects = [
@@ -30,9 +31,9 @@ const projects = [
     grass: 'Esmeralda',
   },
   {
-    image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80',
-    title: 'Talude / Contenção',
-    grass: 'São Carlos',
+    image: chacaraEsmeralda,
+    title: 'Chácara',
+    grass: 'Esmeralda',
   },
 ];
 

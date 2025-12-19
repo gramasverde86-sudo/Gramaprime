@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center pt-24 pb-16 overflow-hidden">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0"
         style={{
           backgroundImage: `url(${heroBg})`,
@@ -41,7 +41,7 @@ export default function Hero() {
           </div>
 
           {/* Title */}
-          <h1 
+          <h1
             className="heading-1 text-white mb-6 animate-fade-in drop-shadow-lg"
             style={{ animationDelay: '0.2s' }}
           >
@@ -50,16 +50,16 @@ export default function Hero() {
           </h1>
 
           {/* Subtitle */}
-          <p 
+          <p
             className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl animate-fade-in drop-shadow"
             style={{ animationDelay: '0.3s' }}
           >
-            Qualidade superior em Grama Esmeralda e São Carlos para seu projeto. 
+            Qualidade superior em Grama Esmeralda e São Carlos para seu projeto.
             Entrega rápida, preço justo e atendimento especializado.
           </p>
 
           {/* CTAs */}
-          <div 
+          <div
             className="flex flex-col sm:flex-row gap-4 animate-fade-in"
             style={{ animationDelay: '0.4s' }}
           >
@@ -79,12 +79,12 @@ export default function Hero() {
           </div>
 
           {/* Trust indicators */}
-          <div 
+          <div
             className="mt-12 flex items-center gap-6 text-sm text-white/80 animate-fade-in"
             style={{ animationDelay: '0.5s' }}
           >
             <div className="flex items-center gap-2">
-              <span className="text-2xl font-bold text-primary-400">+500</span>
+              <span className="text-2xl font-bold text-primary-400">+5000</span>
               <span>Clientes<br />Satisfeitos</span>
             </div>
             <div className="w-px h-10 bg-white/30" />

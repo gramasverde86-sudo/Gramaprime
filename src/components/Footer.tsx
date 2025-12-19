@@ -55,7 +55,7 @@ export default function Footer() {
               <li>
                 <span className="flex items-center gap-2 text-sm text-primary-foreground/70">
                   <MapPin className="w-4 h-4" />
-                  Região de Sorocaba, SP
+                  Região Itapetininga SP
                 </span>
               </li>
             </ul>
